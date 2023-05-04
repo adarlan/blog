@@ -1,0 +1,6 @@
+.git/
+.gitignore
+Dockerfile
+out/
+node_modules/
+.next/

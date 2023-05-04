@@ -1,0 +1,258 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  /* font-size: 1.2em; */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LAYOUT */
+
+div.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  /* padding: 2em 0; */
+  margin-top: 1em;
+}
+
+main {
+  /* padding: 1em 0; */
+}
+
+footer {
+  padding: 2em 0;
+}
+
+/* COLORS */
+
+body {
+  /* background-color: rgb(240, 242, 245); */
+}
+
+* {
+  color: rgb(25, 25, 25);
+}
+
+a:not(footer a) {
+  color: cornflowerblue;
+}
+
+/* LINES */
+
+header div.container {
+  padding-bottom: 2em;
+}
+
+header div.container,
+section,
+article {
+  border-bottom: solid rgb(100, 100, 100) 1px;
+}
+
+/* HEADER */
+
+header a#blog-ref {
+  padding: 0 1em;
+  display: block;
+  text-decoration: none;
+}
+
+header a#blog-ref div.blog-avatar {
+  margin: 0 auto;
+  width: 5em;
+  height: 5em;
+  margin-bottom: 0.5em;
+  background-color: grey;
+  border-radius: 2.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(100, 100, 100);
+  background-image: url(https://avatars.githubusercontent.com/u/13575118?v=4);
+  background-size: cover;
+  background-position: center center;
+}
+
+header a#blog-ref div.blog-name {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.25em;
+  color: rgb(100, 100, 100);
+  vertical-align: middle;
+}
+
+header a {
+  color: cornflowerblue;
+}
+
+header nav {
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+  padding: 0 1em;
+}
+
+header nav a {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p.date {
+  font-size: 0.75em;
+  color: grey;
+}
+
+p.tags {
+  font-size: 0.75em;
+}
+
+span.tag {
+  background-color: grey;
+  border-radius: 0.4em;
+  padding: 0 0.4em;
+  display: inline-block;
+  margin-bottom: 0.3em;
+  color: white;
+  margin-right: 0.5em;
+}
+
+span.tag:last-child {
+  margin-right: 0;
+}
+
+/* section {
+  background-image: url(/images/plankton/cover.png);
+  opacity: 0.5;
+} */
+
+a.back {
+  font-size: 2em;
+  /* background-color: white; */
+  /* border-radius: 1em; */
+  /* display: inline-block; */
+  /* width: 2em; */
+  /* height: 1.3em; */
+  /* text-align: center; */
+  text-decoration: none;
+  /* margin-bottom: 1em; */
+}
+
+section,
+article {
+  /* background-color: white; */
+  /* box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%); */
+}
+
+section {
+  /* margin-bottom: 2em; */
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+section div.cover,
+article div.cover {
+  width: 100%;
+  background-position: center center;
+  width: 100%;
+  background-size: cover;
+}
+
+section div.cover {
+  height: 420px;
+}
+
+article div.cover {
+  height: 540px;
+}
+
+section div.content-container {
+  padding: 1em;
+}
+
+article div.content-container {
+  /* padding: 0 1em 1em 1em; */
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+article div.metadata {
+  margin-bottom: 2em;
+}
+
+article code:not(pre code) {
+  background-color: rgb(235, 235, 235);
+  padding: 0 0.25em;
+  border-radius: 0.4em;
+}
+
+article pre {
+  background-color: rgb(235, 235, 235);
+  padding: 1em;
+  overflow-x: scroll;
+}
+
+/* article pre a {
+  text-decoration: none;
+} */
+
+article img {
+  max-width: 100%;
+  border: 1px solid #bbb;
+}
+
+article blockquote {
+  border-left: solid grey 0.3em;
+  padding: 0.1em 0 0.1em 0.5em;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 0.8em;
+}
+
+footer div.social i {
+  font-size: 1.25em;
+}
+
+footer * {
+  color: grey;
+}
+
+footer div.social {
+  text-align: center;
+  padding: 0 1em;
+}
+
+footer div.social a {
+  display: inline-grid;
+  padding: 0.5em;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer div.license {
+  text-align: center;
+  padding: 0 1em;
+}
